@@ -1,0 +1,3 @@
+studlab,TE,seTE,statistic,pval,df,lower,upper,w.common,w.random,title,approx.seTE,zval,level.ci,w.fixed
+Bentham 2015,0.34,0.2,1.7,0.0891309255170861,NA,-0.0519927969080107,0.731992796908011,25,25,Allisonella (Genus) NA on Systemic lupus erythematosus in Kun Xiang 2021,,1.7,0.95,25
+Bentham 2015,0.34500713907105,0.182835314669925,1.88698304643113,0.0591626059765952,NA,-0.0140989243795016,0.7026023393307,29.91436806589,29.91436806589,Allisonella (Genus) NA on Systemic lupus erythematosus in Qian Xu 2021,ci,1.88698304643113,0.95,29.91436806589
