@@ -8,7 +8,7 @@ Raw and cleaned dataset of information extracted from the records included in th
 All figures presenting meta-analysis results of MR effect estimates within individual records (i.e., the "WithinStudy" folder) and across records (i.e., the "BetweenStudies" folder), where exposure (and unit) are the same, the outcome (and unit) are the same and the outcome study sources are different across estimates. Also includes figures of the comparisons of estimates across records where the same analyses were conducted using the same data sources for the exposure (i.e., effect estimates of the relationship between single nucleotide polymorphisms (SNPs) on the exposure) and the outcome (i.e., SNP-outcome estimates) - i.e., the "SameAnalyses" folder. 
 
 ## Records
-All records (i.e., published papers, conference abstracts and preprints) included in the review.
+All records (i.e., published papers, conference abstracts and preprints) included in the review where filename reflects the ID of the record in both data extraction and quality assessment processes.
 
 ## Results
 All results of the meta-analysis of MR effect estimates within individual records (i.e., the "WithinStudy" folder) and across records (i.e., the "BetweenStudies" folder), where exposure (and unit) are the same, the outcome (and unit) are the same and the outcome study sources are different across estimates. Also includes results files of the comparisons of estimates across records where the same analyses were conducted using the same data sources for the exposure and the outcome (i.e., the "SameAnalyses" folder). 
