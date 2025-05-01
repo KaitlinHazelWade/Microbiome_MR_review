@@ -447,7 +447,7 @@ table(unique(current$study2[which(current$ID == 718621312)]))
 table(unique(current$exposure_study_n[which(current$ID == 718621312)]))
 table(unique(current$outcome_study_case[which(current$ID == 718621312)]))
 table(unique(current$outcome_study_control[which(current$ID == 718621312)]))
-
+ 
 # Checking 914635920 = NO - this one used a different outcome dataset
 table(unique(current$study1[which(current$ID == 914635920)]))
 table(unique(current$study2[which(current$ID == 914635920)]))
@@ -728,6 +728,14 @@ paste0(quality$ID[which(quality$Count.if.any.high.risk.of.bias >=8)], ": ", qual
 paste0(quality$ID[which(quality$high == 0)], ": ", quality$Author[which(quality$high == 0)])
 paste0(quality$Title[which(quality$high == 0)], ": ", quality$Author[which(quality$high == 0)])
 rm(all_high_quality, all_low_quality, all_moderate_quality)
+
+## Records that had the most high quality
+paste0(quality$ID[which(quality$high >=4)], ": ", quality$Author[which(quality$high >=4)])
+paste0(quality$Title[which(quality$high >=4)], ": ", quality$Author[which(quality$high >=4)])
+
+## Records that had the least low quality
+paste0(quality$ID[which(quality$Count.if.any.high.risk.of.bias <=3)], ": ", quality$Author[which(quality$Count.if.any.high.risk.of.bias <=3)])
+paste0(quality$Title[which(quality$Count.if.any.high.risk.of.bias <=3)], ": ", quality$Author[which(quality$Count.if.any.high.risk.of.bias <=3)])
 
 ## P-value thresholds for studies
 # Summarise the number of records that use a lenient p-value threshold
